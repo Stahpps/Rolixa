@@ -1,0 +1,29 @@
+# Dependencies and generated web output
+node_modules/
+dist/
+
+# Android build output and local machine configuration
+android/.gradle/
+android/local.properties
+android/**/build/
+android/.idea/
+android/app/.cxx/
+
+# Signing material must never be committed
+android/keystore.properties
+android/signing/
+*.jks
+*.keystore
+*.p12
+
+# Installable release artifacts are attached to GitHub Releases instead
+*.apk
+*.aab
+*.ap_
+release-assets/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
