@@ -11,12 +11,11 @@ Android APKs are published as downloadable assets in [GitHub Releases](https://g
 ## Run the web app
 
 ```powershell
-cd Z:\APP\Rolixa
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite.
+Run these commands from the project folder, then open the local URL printed by Vite.
 
 ## Android
 
